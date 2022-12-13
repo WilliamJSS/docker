@@ -16,7 +16,4 @@ apache/*
 !apache/sites-avaliable/000-default.conf
 .vscode
 react-native/Android/*
-
-
-
-
+zabbix/*/
