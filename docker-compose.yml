@@ -29,7 +29,7 @@ services:
   postgres:
     build: ./bancos/postgresql/.
     container_name: postgres
-    environment: 
+    environment:
       POSTGRES_PASSWORD: ${PGSQL_PASSWORD}
       # TZ: "America/Bahia"
     ports: 

@@ -2,6 +2,8 @@
 
 //phpinfo();
 
-echo 'index'; 
+echo 'Default index.php file';
+echo ' -- ';
+echo 'set DirectoryIndex in .conf file'
 
 ?>
