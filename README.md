@@ -139,7 +139,7 @@ docker-compose up -d apache
 
   - Apache<br>
 
-    1 - Ir até a pasta <code> apache/sites-avaliable</code> e Editar as diretivas do arquivo sites.conf:<br>
+    1 - Ir até a pasta <code> apache/sites-available</code> e Editar as diretivas do arquivo sites.conf:<br>
     <code>ServerName projeto.local</code> (Colocar o dominio local criado).<br>
     <code>DocumentRoot /var/www/html/teste</code> e <code>Directory "/var/www/html/teste"</code>, Alterar O final "teste" pelo nome da pasta do seu projeto.<br>
     2 - Acessar o container do apache pelo vscode e digitar o seguinte comando: <code># a2ensite sites.conf</code>.<br>

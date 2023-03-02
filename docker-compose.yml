@@ -91,7 +91,7 @@ services:
     restart: always
     volumes:
       - ./sites:/var/www/html
-      - ./apache/sites-avaliable:/etc/apache2/sites-available
+      - ./apache/sites-available:/etc/apache2/sites-available
     ports:
       - ${APACHE_PORT}:80
       - 9000:9000

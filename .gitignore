@@ -10,10 +10,10 @@ bancos/redis/db/*
 sites/*
 !sites/teste
 nginx/*.conf
-apache/*
-!apache/sites-avaliable/000-default.conf
-!apache/sites-avaliable/default-ssl.conf
-!apache/sites-avaliable/000-default.conf
+apache/sites-available/*
+!apache/sites-available/000-default.conf
+!apache/sites-available/default-ssl.conf
+!apache/sites-available/site.conf
 .vscode
 react-native/Android/*
 zabbix/*/
